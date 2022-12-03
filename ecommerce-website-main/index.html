@@ -1262,6 +1262,10 @@
     - custom test remita Api 
   -->
 
+
+
+      <script type="text/javascript" src="https://remitademo.net/payment/v1/remita-pay-inline.bundle.js"></script>
+
   <script>         
     function makePayment(email, amount,firstName ,lastName) {
       debugger
@@ -1274,6 +1278,7 @@
             lastName,
             email,
             amount,
+            narration: 'test narration',
             onSuccess: function (response) {
                 console.log('callback Successful Response', response);
             },
@@ -1289,11 +1294,11 @@
     }
    
 //     window.onload = function () {
-//         setDemoData();
+//         check();
 //     };
 </script>
     
-            <script type="text/javascript" src="https://remitademo.net/payment/v1/remita-pay-inline.bundle.js"></script>
+           
 
 
   <!--
