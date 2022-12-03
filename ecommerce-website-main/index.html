@@ -1269,12 +1269,11 @@
         var paymentEngine = RmPaymentEngine.init({
             key: 'QzAwMDAyNzEyNTl8MTEwNjE4NjF8OWZjOWYwNmMyZDk3MDRhYWM3YThiOThlNTNjZTE3ZjYxOTY5NDdmZWE1YzU3NDc0ZjE2ZDZjNTg1YWYxNWY3NWM4ZjMzNzZhNjNhZWZlOWQwNmJhNTFkMjIxYTRiMjYzZDkzNGQ3NTUxNDIxYWNlOGY4ZWEyODY3ZjlhNGUwYTY=',
             transactionId: Math.floor(Math.random()*1101233), // Replace with a reference you generated or remove the entire field for us to auto-generate a reference for you. Note that you will be able to check the status of this transaction using this transaction Id
-            customerId: form.querySelector('input[name="email"]').value,
+            customerId: Math.floor(Math.random()*1922233),
             firstName,
             lastName,
             email,
             amount,
-            narration: form.querySelector('input[name="narration"]').value,
             onSuccess: function (response) {
                 console.log('callback Successful Response', response);
             },
