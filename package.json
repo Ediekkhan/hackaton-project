@@ -1,0 +1,11 @@
+{
+  "devDependencies": {
+    "parcel": "^2.8.2",
+    "webpack": "^5.75.0",
+    "webpack-cli": "^5.0.1",
+    "webpack-dev-server": "^4.11.1"
+  },
+  "dependencies": {
+    "@uauth/js": "^2.4.0"
+  }
+}
